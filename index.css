@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clock{
+    font-size: 6rem;
+    font-family: 'Wallpoet', cursive;
+    color:#FCF876;
+    display: flex;
+    justify-content: center;
+  
+    
+}
+body{
+    background-image:url(./pexels-samer-daboul-1209999.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+#times{
+    padding-left:25px;
+}
