@@ -10,8 +10,10 @@ let time = () => {
     let currentMinute = currentTime.getMinutes();
     let currentSecond = currentTime.getSeconds();
 
-    if (currentHour < 12  && currentHour > 0){
+    if (currentHour < 12 ){
         times.innerText = "AM"
+        
+        
     } else{
         currentHour -= 12
         times.innerText = "PM"
